@@ -1,12 +1,12 @@
-Field Name	Description	Data Type	Notes
-listen_id	Unique identifier for each listening session.	Integer	Primary Key for Listening Data.
-user_id	Anonymized identifier for the user.	String	
-track_id	Unique identifier for the track listened to.	String	
-artist_name	The artist of the track.	String	
-duration_ms	The length of the track in milliseconds.	Integer	
-engagement_score	A proxy for user engagement (e.g., likes, shares).	Float	Range from 0.0 to 1.0.
-genre_tag	A genre tag assigned to the track.	String	Can be user-generated or platform-assigned.
-content_id	Unique identifier for licensed content.	String	Primary Key for licensed catalog.
-artist_name	The name of the artist.	String	
-album_title	The title of the album or single.	String	
-is_licensed	Binary indicator (1 if licensed, 0 if not).	Boolean	This is a key field for identifying gaps.
+table_name,field_name,description,data_type,notes
+user_listening_data,listen_id,Unique identifier for each listening session.,Integer,Primary Key for Listening Data.
+user_listening_data,user_id,Anonymized identifier for the user.,String,
+user_listening_data,track_id,Unique identifier for the track listened to.,String,
+user_listening_data,artist_name,The artist of the track.,String,
+user_listening_data,duration_ms,The length of the track in milliseconds.,Integer,
+user_listening_data,engagement_score,A proxy for user engagement (e.g., likes).,Float,Range 0.0 to 1.0
+user_listening_data,genre_tag,A genre tag assigned to the track.,String,Can be user-generated or platform-assigned.
+licensed_catalog_data,content_id,Unique identifier for licensed content.,String,Primary Key for licensed catalog.
+licensed_catalog_data,artist_name,The name of the artist.,String,
+licensed_catalog_data,album_title,The title of the album or single.,String,
+licensed_catalog_data,is_licensed,Binary indicator (1 = licensed).,Boolean,Key field for identifying gaps.
