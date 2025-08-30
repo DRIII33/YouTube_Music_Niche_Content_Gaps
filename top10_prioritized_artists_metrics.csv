@@ -1,0 +1,11 @@
+	artist_name	total_listening_sessions	avg_engagement_score	most_listened_genre	sessions_normalized	engagement_normalized	priority_score
+0	Unlicensed Artist 983	33	0.370730	folk	0.866667	0.834080	0.853632
+1	Unlicensed Artist 63	37	0.302667	ambient	1.000000	0.581192	0.832477
+2	Unlicensed Artist 1371	31	0.343373	folk	0.800000	0.732435	0.772974
+3	Unlicensed Artist 1125	32	0.321991	ambient	0.833333	0.652990	0.761196
+4	Unlicensed Artist 25	32	0.319811	experimental	0.833333	0.644890	0.757956
+5	Unlicensed Artist 101	26	0.395243	vaporwave	0.633333	0.925158	0.750063
+6	Unlicensed Artist 594	31	0.326843	lo-fi indie	0.800000	0.671017	0.748407
+7	Unlicensed Artist 1242	32	0.306990	ambient	0.833333	0.597255	0.738902
+8	Unlicensed Artist 587	30	0.330775	lo-fi indie	0.766667	0.685627	0.734251
+9	Unlicensed Artist 1247	32	0.301102	folk	0.833333	0.575375	0.730150
